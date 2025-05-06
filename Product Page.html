@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///C:/Users/PANCHAKSHARI/OneDrive/Desktop/product1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .navbar {
+      background: #111;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .nav-links li a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .nav-links li a:hover {
+      color: #f39c12;
+    }
+
+    .product-container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 2rem;
+      background: #fff;
+      margin: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .product-image img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .product-image img:hover {
+      transform: scale(1.05);
+    }
+
+    .product-details {
+      flex: 1;
+      margin-left: 2rem;
+    }
+
+    .product-details h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .product-details .price {
+      font-size: 1.5rem;
+      color: #e74c3c;
+      margin: 1rem 0;
+    }
+
+    .add-to-cart {
+      background: #27ae60;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .add-to-cart:hover {
+      background: #219150;
+    }
+
+    .reviews, .related-products {
+      margin: 2rem;
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+
+    .reviews h2, .related-products h2 {
+      margin-bottom: 1rem;
+    }
+
+    .review {
+      margin-bottom: 1rem;
+      padding-left: 1rem;
+      border-left: 3px solid #ccc;
+    }
+
+    .related-container {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .related-item {
+      text-align: center;
+      width: 150px;
+    }
+
+    .related-item img {
+      width: 100%;
+      border-radius: 5px;
+      transition: transform 0.3s;
+    }
+
+    .related-item img:hover {
+      transform: scale(1.05);
+    }
+
+    @media screen and (max-width: 768px) {
+      .product-container {
+        flex-direction: column;
+      }
+
+      .product-details {
+        margin-left: 0;
+        margin-top: 1.5rem;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        margin-top: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">ShopEase</div>
+    <ul class="nav-links">
+      <li><a href="file:///C:/Users/PANCHAKSHARI/OneDrive/Desktop/product1.html#">Home</a></li>
+      <li><a href="file:///C:/Users/PANCHAKSHARI/OneDrive/Desktop/product1.html#">Shop</a></li>
+      <li><a href="file:///C:/Users/PANCHAKSHARI/OneDrive/Desktop/product1.html#">Contact</a></li>
+      <li><a href="file:///C:/Users/PANCHAKSHARI/OneDrive/Desktop/product1.html#">Cart</a></li>
+    </ul>
+  </nav>
+
+  <main class="product-container">
+    <div class="product-image">
+      <img src="./Product Page_files/th.jpg" alt="Product">
+    </div>
+    <div class="product-details">
+      <h1>Modern Sneakers</h1>
+      <p class="description">Comfortable and stylish sneakers for daily wear.</p>
+      <p class="price">$79.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </main>
+
+  <section class="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="review">
+      <p>"Very comfortable and durable!" - Jane</p>
+    </div>
+    <div class="review">
+      <p>"Stylish and fits perfectly." - Mark</p>
+    </div>
+  </section>
+
+  <section class="related-products">
+    <h2>Related Products</h2>
+    <div class="related-container">
+      <div class="related-item">
+        <img src="./Product Page_files/Galaxis-Pro-Men&#39;s-Performance-Boost-Running-Shoes.avif" alt="Product">
+        <p>Running Shoes</p>
+      </div>
+      <div class="related-item">
+        <img src="./Product Page_files/OIP.jpg" alt="Product">
+        <p>Sport Trainers</p>
+      </div>
+    </div>
+  </section>
+
+
+
+</body></html>
